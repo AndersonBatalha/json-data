@@ -1,0 +1,25 @@
+{
+    "pilotos": [
+        {
+            "id": 1,
+            "nome": "Lewis Hamilton",
+            "equipe": "Mercedes",
+            "nacionalidade": "Reino Unido",
+            "titulos_mundiais": 5
+        },
+        {
+            "id": 2,
+            "nome": "Sebastian Vettel",
+            "equipe": "Ferrari",
+            "nacionalidade": "Alemanha",
+            "titulos_mundiais": 4
+        },
+        {
+            "id": 3,
+            "nome": "Kimi Raikkonen",
+            "equipe": "Alfa Romeo",
+            "nacionalidade": "Finlândia",
+            "titulos_mundiais": 1
+        }
+    ]
+}
