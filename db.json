@@ -1,25 +1,109 @@
 {
-    "pilotos": [
+    "calendario_temporada": [
         {
             "id": 1,
-            "nome": "Lewis Hamilton",
-            "equipe": "Mercedes",
-            "nacionalidade": "Reino Unido",
-            "titulos_mundiais": 5
+            "local": "Austrália",
+            "nome_oficial_evento": "FORMULA 1 ROLEX AUSTRALIAN GRAND PRIX 2019",
+            "nome_circuito": "Albert Park",
+            "localização": {
+                "cidade": "Melbourne",
+                "pais": "Austrália"
+            },
+            "primeira_corrida": 1996,
+            "recorde_pista": {
+                "piloto_recorde": "Michael Schumacher",
+                "ano_recorde": 2004,
+                "tempo_recorde": "1:24.125"
+            },
+            "percurso": 5303,
+            "numero_voltas": 58,
+            "distancia_total": 305574,
+            "url": "https://www.formula1.com/en/racing/2019/Australia.html",
+            "flag_icon": "au"
         },
         {
             "id": 2,
-            "nome": "Sebastian Vettel",
-            "equipe": "Ferrari",
-            "nacionalidade": "Alemanha",
-            "titulos_mundiais": 4
-        },
+            "local": "Bahrein",
+            "nome_oficial_evento": "FORMULA 1 GULF AIR BAHRAIN GRAND PRIX 2019",
+            "nome_circuito": "Circuito Internacional do Bahrein",
+            "localização": {
+                "cidade": "Sahkir",
+                "pais": "Bahrein"
+            },
+            "primeira_corrida": 2004,
+            "recorde_pista": {
+                "piloto_recorde": "Pedro De la Rosa",
+                "ano_recorde": 2005,
+                "tempo_recorde": "1:31.447"
+            },
+            "percurso": 5412,
+            "numero_voltas": 57,
+            "distancia_total": 308238,
+            "url": "https://www.formula1.com/en/racing/2019/Bahrain.html",
+            "flag_icon": "bh"
+        }
+    ],
+    "equipes": [
         {
-            "id": 3,
-            "nome": "Kimi Raikkonen",
-            "equipe": "Alfa Romeo",
-            "nacionalidade": "Finlândia",
-            "titulos_mundiais": 1
+            "nome_equipe": "Mercedes",
+            "nome_oficial": "Mercedes AMG Petronas Motorsport",
+            "sede": {
+                "cidade": "Brackley",
+                "pais": "Reino Unido"    
+            },
+            "chassis": "W10",
+            "primeiro_campeonato": 1970,
+            "unidade_potencia": "Mercedes",
+            "titulos_mundiais": 5,
+            "melhor_resultado": {
+                "posicao": 1,
+                "quantidade": 79
+            },
+            "pole_positions": 94,
+            "voltas_mais_rapidas": 58,
+            "url": "https://www.formula1.com/en/teams/Mercedes.html",
+            "pilotos": [
+                {
+                    "nome": "Lewis Hamilton",
+                    "equipe": "Mercedes",
+                    "podios": 135,
+                    "pontos_ganhos": 3036,
+                    "gps_disputados": 230,
+                    "titulos_mundiais": {
+                        "quantidade": 5,
+                        "titulos": [2008, 2014, 2015, 2017, 2018]
+                    },
+                    "melhor_colocacao": {
+                        "posicao": 1,
+                        "quantidade": 73
+                    },
+                    "data_nascimento": "07/01/1985",
+                    "naturalidade": {
+                        "cidade_nasc": "Stevenage",
+                        "pais_nasc": "Reino Unido"
+                    }
+                },
+                {
+                    "nome": "Valtteri Bottas",
+                    "equipe": "Mercedes",
+                    "podios": 31,
+                    "pontos_ganhos": 989,
+                    "gps_disputados": 120,
+                    "titulos_mundiais": {
+                        "quantidade": 0,
+                        "titulos": []
+                    },
+                    "melhor_colocacao": {
+                        "posicao": 1,
+                        "quantidade": 4
+                    },
+                    "data_nascimento": "28/08/1989",
+                    "naturalidade": {
+                        "cidade_nasc": "Nastola",
+                        "pais_nasc": "Finlândia"
+                    }
+                }
+            ]
         }
     ]
 }
